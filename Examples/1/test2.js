@@ -23,11 +23,12 @@
 //     alert("Still lots of ice cream left, come and get it.")
 //     }
 
-var nick = "Joe"
-var i = 0
-while (i < 2) {
-document.write("Happy Birthday to you.<br>")
-i = i + 1
-}
-document.write("Happy Birthday dear " + nick + ",<br>")
-document.write("Happy Birthday to you.<br>")
+// var nick = "Joe"
+// var i = 0
+// while (i < 2) {
+// document.write("Happy Birthday to you.<br>")
+// i = i + 1
+// }
+// document.write("Happy Birthday dear " + nick + ",<br>")
+// document.write("Happy Birthday to you.<br>")
+
