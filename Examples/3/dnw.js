@@ -10,7 +10,7 @@ if (dogName == Nick1) alert("Hello " + Nick1);
 if (dogName == Nick2) alert("Hello " + Nick2);
 if (dogName == Nick3) alert("Hello " + Nick3);
 
-function weightOfDogs(dogName ,dogWeight) {
+function weightOfDogs(dogName, dogWeight) {
   if (dogWeight > 20) {
     console.log(dogName + " says WOOF WOOF");
   } else {
@@ -20,8 +20,8 @@ function weightOfDogs(dogName ,dogWeight) {
 
 //dogWeight = prompt("what is the weight of the dog?");
 //if (dogWeight < 0 || dogWeight > 100) {
- // console.log(weightOfDogs);
+// console.log(weightOfDogs);
 //}
-weightOfDogs("Rover" , 23)
-weightOfDogs("Spot" , 13)
-weightOfDogs("Spike" , 53)
+weightOfDogs("Rover", -1);
+weightOfDogs("Spot", 13);
+weightOfDogs("Spike", 53);
