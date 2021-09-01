@@ -25,5 +25,5 @@ function display(output) {
   clunkCounter = clunkCounter - 1;
 }
 let clunkCounter = 0;
-thingamajig(5);
+thingamajig();
 console.log(clunkCounter);
