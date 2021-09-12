@@ -3,7 +3,7 @@ let scores = [
   64, 66, 55, 52, 61, 46, 31, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44,
 ];
 let output;
-for (let i = 0; i < scores.length; i = i + 1) {
+for (let i = 0; i < scores.length; i++) {
   output = "Bubble solution #" + i + " score: " + scores[i];
   console.log(output);
 }
