@@ -11,5 +11,15 @@ for (let i = 0; i < scores.length; i++) {
     highscore = scores[i];
   }
 }
+
+scores.push(65415);
 console.log("Bubbles tests: " + scores.length);
 console.log("Highest bubble score: " + highscore);
+
+let bestSolutions = [];
+for (let i = 0; i < scores.length; i++) {
+  if (scores[i] == highscore) {
+    bestSolutions.push(i);
+  }
+}
+console.log("Solutions with the highest score: " + bestSolutions);
