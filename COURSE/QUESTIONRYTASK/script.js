@@ -7,15 +7,11 @@
 // console.log("My favorite color is " + favoriteColor);
 // alert("My favorite color is " + favoriteColor);
 
-let firstName;
-let lastName;
-let age;
-
-firstName = prompt("What is your firstname?");
+const firstName = prompt("What is your firstname?");
 console.log("My firstname is " + firstName);
 
-lastName = prompt("What is your lastname?");
-console.log("My firstname is " + lastName);
+const lastName = prompt("What is your lastname?");
+console.log("My lastName is " + lastName);
 
-age = prompt("How old are you?");
-console.log("My firstname is " + age);
+const age = prompt("How old are you?");
+console.log("My age is " + age);
