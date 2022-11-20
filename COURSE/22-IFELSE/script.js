@@ -9,3 +9,15 @@ if (isAdult) {
     `You are too young. You can watch this video after ${yearsLeft} years later`
   );
 }
+
+const color = "green";
+
+if (color === "green") {
+  console.log("GO!");
+} else if (color === "yellow") {
+  console.log("GET READY!");
+} else if (color === "red") {
+  console.log("STOP!");
+} else {
+  console.log("Incorrect color!");
+}
