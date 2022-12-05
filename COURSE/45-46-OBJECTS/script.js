@@ -10,3 +10,12 @@ myData = {
 
 console.log(myData.age);
 console.log(myData.myFamily[1]);
+console.log(myData);
+console.log(myData.lastName); // Dot notation
+console.log(myData["job"]); //Bracket Notation
+
+const baseName = "name";
+console.log(myData["last" + baseName]);
+
+const userInput = prompt("What do yoy want to know about Andrey? age");
+console.log(myData[userInput]); //32
