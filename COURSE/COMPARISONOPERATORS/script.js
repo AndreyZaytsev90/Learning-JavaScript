@@ -25,7 +25,7 @@ let isXMoreThanY4 = a2 !== b3;
 console.log(isXMoreThanY4);
 
 console.log(true === 1); //false разные типы
-console.log(true == 1); // true
+console.log(true === 1); // true
 
 console.log(null == undefined); // true
-console.log(NaN == NaN); // false
+console.log(NaN === NaN); // false
