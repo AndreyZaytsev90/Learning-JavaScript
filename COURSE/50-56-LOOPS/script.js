@@ -43,7 +43,7 @@ console.log(ages)
 //continue & break -- продолжение и прирывание цикла
 
 
-const user = personData = ["Andrey", "Zaytsev", 1990, "Lead engineer", ["Olga", "Petr"], false];
+/*const user = personData = ["Andrey", "Zaytsev", 1990, "Lead engineer", ["Olga", "Petr"], false];
 
 for (let i = 0; i <= user.length-1; i++) {
     if (typeof user[i] !== 'string') continue
@@ -53,5 +53,23 @@ for (let i = 0; i <= user.length-1; i++) {
 for (let i = 0; i <= user.length-1; i++) {
     if (typeof user[i] === 'number') break
     console.log(user[i], typeof user[i])
+}*/
+
+//Итерация в обратном порядке. Циклы в циклах
+
+const user = personData = ["Andrey", "Zaytsev", 1990, "Lead engineer", ["Olga", "Petr"], false];
+
+for (let i = user.length-1; i >= 0; i--){
+    console.log(i, user[i])
 }
 
+console.log('-----LOOP IN LOOP-----')
+
+for (let exercise = 1; exercise <= 3; exercise++) {
+    console.log(`Exercise ${exercise}`)
+    for (let rep = 1; rep <= 5; rep++){
+        console.log(`Ex ${exercise} Rep ${rep}`)
+    }
+    console.log('Out of inner loop')
+}
+console.log('Out of outer loop')
