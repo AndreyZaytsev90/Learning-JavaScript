@@ -78,7 +78,7 @@ console.log('Out of outer loop')
 */
 
 //Loop While ----------------------------------
-console.log('Loop FOR:')
+/*console.log('Loop FOR:')
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`Push ups repetition ${rep}`)
 }
@@ -97,4 +97,21 @@ console.log(diceNumber)
 while (diceNumber !== 6){
     console.log('in game!')
     diceNumber = Math.trunc((Math.random()*6)+1)
+}*/
+
+//Final Task
+
+
+const bills = [31, 95, 276, 540, 27, 205, 11, 1180, 96, 57];
+
+const tips = []
+const total = []
+
+
+for (let i = 0; i < bills.length; i++) {
+    calculateTips = (bill) => (bill < 20 ? bill * 0.2 : bill * 0.15)
+    tips.push(Number(calculateTips(bills[i]).toFixed(2)))
+    total.push(bills[i]+ tips[i])
 }
+console.log(tips)
+console.log(total)

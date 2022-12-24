@@ -1,4 +1,4 @@
-const calculateTips = (bill) => (bill < 20 ? bill * 0.2 : bill * 0.15);
+let calculateTips = (bill) => (bill < 20 ? bill * 0.2 : bill * 0.15);
 
 const bills = [11, 20, 47];
 console.log(bills);
