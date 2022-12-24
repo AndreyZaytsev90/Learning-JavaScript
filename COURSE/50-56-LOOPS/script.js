@@ -56,6 +56,7 @@ for (let i = 0; i <= user.length-1; i++) {
 }*/
 
 //Итерация в обратном порядке. Циклы в циклах
+/*
 
 const user = personData = ["Andrey", "Zaytsev", 1990, "Lead engineer", ["Olga", "Petr"], false];
 
@@ -73,3 +74,27 @@ for (let exercise = 1; exercise <= 3; exercise++) {
     console.log('Out of inner loop')
 }
 console.log('Out of outer loop')
+
+*/
+
+//Loop While ----------------------------------
+console.log('Loop FOR:')
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Push ups repetition ${rep}`)
+}
+
+console.log('Loop WHILE:')
+let rep = 1
+
+while (rep <= 10) {
+    console.log(`Push ups repetition ${rep}`)
+    rep++
+}
+
+let diceNumber = Math.trunc((Math.random()*6)+1)
+console.log(diceNumber)
+
+while (diceNumber !== 6){
+    console.log('in game!')
+    diceNumber = Math.trunc((Math.random()*6)+1)
+}
