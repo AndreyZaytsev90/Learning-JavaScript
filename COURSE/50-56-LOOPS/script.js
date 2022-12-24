@@ -115,6 +115,8 @@ for (let i = 0; i < bills.length; i++) {
 console.log(tips)
 console.log(total)
 
+
+// additionally, bonus
 function calculateAverage(arr) {
     let sum = 0
     let average = 0
