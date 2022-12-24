@@ -99,19 +99,35 @@ while (diceNumber !== 6){
     diceNumber = Math.trunc((Math.random()*6)+1)
 }*/
 
-//Final Task
 
+//Final Task
 
 const bills = [31, 95, 276, 540, 27, 205, 11, 1180, 96, 57];
 
 const tips = []
 const total = []
 
-
 for (let i = 0; i < bills.length; i++) {
     calculateTips = (bill) => (bill < 20 ? bill * 0.2 : bill * 0.15)
     tips.push(Number(calculateTips(bills[i]).toFixed(2)))
-    total.push(bills[i]+ tips[i])
+    total.push(bills[i] + tips[i])
 }
 console.log(tips)
 console.log(total)
+
+function calculateAverage(arr) {
+    let sum = 0
+    let average = 0
+
+    for (let i = 0; i < arr.length; i++) {
+        average = sum += arr[i]/arr.length
+    }
+    return Number(average.toFixed(1))
+}
+
+console.log(calculateAverage(bills))
+console.log(calculateAverage(total))
+
+
+
+
