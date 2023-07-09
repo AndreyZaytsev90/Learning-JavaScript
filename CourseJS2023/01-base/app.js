@@ -1,6 +1,6 @@
-let num = 42;
-let firstName = "Andrey";
-const isProgrammer = true;
+let num = 42; // number
+let firstName = "Andrey"; //string
+let isProgrammer = true; // boolean
 
 //can do
 /*
@@ -25,4 +25,18 @@ let num7 = '7'
 //firstName = "Olga";
 //isProgrammer = false; // error because is const
 
-alert(num);
+//alert(num);
+//console.log("Test:", firstName);
+//console.log(num + 10);
+//console.log(num - 10);
+//console.log(num * 10);
+//console.log(num / 10);
+
+let num2 = num + 10;
+//console.log(num, num2);
+
+num = num2 - num;
+console.log(num);
+
+let num3 = (num + 10) / 34;
+console.log(num3);
