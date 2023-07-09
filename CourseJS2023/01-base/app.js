@@ -32,11 +32,15 @@ let num7 = '7'
 //console.log(num * 10);
 //console.log(num / 10);
 
-let num2 = num + 10;
+//let num2 = num + 10;
 //console.log(num, num2);
 
-num = num2 - num;
-console.log(num);
+//num = num2 - num;
+//console.log(num);
 
-let num3 = (num + 10) / 34;
-console.log(num3);
+//let num3 = (num + 10) / 34;
+//console.log(num3);
+
+const fullName = firstName + " Zaytsev";
+
+console.log(fullName);
