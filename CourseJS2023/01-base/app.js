@@ -17,9 +17,9 @@ let num7 = '7'
 
 //restricted
 /*
-//let 7num = '7'
-//let my-num = 7
-//let const
+//let 7num = '7' // нельзя начинать с числа
+//let my-num = 7 // нельзя с -
+//let const // зарезервированное слово
 */
 
 //firstName = "Olga";
@@ -27,20 +27,25 @@ let num7 = '7'
 
 //alert(num);
 //console.log("Test:", firstName);
-//console.log(num + 10);
-//console.log(num - 10);
-//console.log(num * 10);
-//console.log(num / 10);
+/*
+console.log(num + 10); // выводит результат, но не меняет значение
+console.log(num - 10);
+console.log(num * 10);
+console.log(num / 10);
+console.log(num);
+*/
 
 //let num2 = num + 10;
 //console.log(num, num2);
+/*
+num = num2 - num;
+console.log(num);
 
-//num = num2 - num;
-//console.log(num);
+let num3 = (num + 10) / 34;
+console.log(num3);
+*/
 
-//let num3 = (num + 10) / 34;
-//console.log(num3);
+//const fullName = firstName + " Zaytsev";
+//const fullName = firstName + " " + "Zaytsev";
 
-const fullName = firstName + " Zaytsev";
-
-console.log(fullName);
+//console.log("Test:", fullName);
